@@ -57,9 +57,12 @@
     padding: 10px 20px;
     background-color: red;
     color: white;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
+    
 }
 .btn:hover{
-    color: yellow;
+    background-color: #52505000;
+    transition: 0.8s;
+    border: 2px solid white;
 }
