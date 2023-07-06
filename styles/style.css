@@ -128,3 +128,45 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* footer style */
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+.logo-footer{
+    margin-bottom: 30px;
+    width: 200px;
+}
+.foot-head{
+    margin-bottom: 30px;
+}
+.foot-sec{
+    background-color: black;
+}
+.footer-hr{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    height: 1px;
+    border: none;
+    margin-bottom: 20px;
+}
+.copyright{
+    color: darkgray;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    font-size: smaller;
+    font-family: 'Times New Roman', Times, serif;
+}
+.copyright:hover{
+    transform: scale(1.33);
+}
